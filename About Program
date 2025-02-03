@@ -1,0 +1,9 @@
+This program implements a simple stack calculator which can compute an infix expression. It should take in a string containing an infix expression, compute the result, and print it out. It should handle operators +,− ,∗ ,/ and parenthesis. 
+
+The program will have two main steps: first convert the infix expression to postfix, and then compute the result using the algorithms that require that I implement my own stack. 
+
+My code has the following assumptions: 
+-> There are no spaces or other whitespace in the string 
+-> All the operands are single digits 
+-> The result of every operation is a single digit. For example, 2+3 is allowed because the result is 5.5 ∗ 3 is not allowed because the result is 15 , which is two digits. 5+3+4 is not allowed because even though the first operation is 8 , a single digit, the result of the second operation is 12 , two digits. 5+3−4 is allowed because the result of the first operation is 8 , and the result of the second operation is 4
+->  Any string entered contains a valid, syntactically correct infix expression. If there are parentheses in the expression, they are balanced. 
